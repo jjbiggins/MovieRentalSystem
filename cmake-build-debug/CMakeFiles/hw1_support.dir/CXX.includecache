@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jjbiggins/Developer/C++/cie/jjbiggins/homework/hw1/Movie.h
+string
+-
+
+/Users/jjbiggins/Developer/C++/cie/jjbiggins/homework/hw1/RentalCustomer.h
+Movie.h
+/Users/jjbiggins/Developer/C++/cie/jjbiggins/homework/hw1/Movie.h
+
+/Users/jjbiggins/Developer/C++/cie/jjbiggins/homework/hw1/helperfunctions.cpp
+stdio.h
+-
+Movie.h
+/Users/jjbiggins/Developer/C++/cie/jjbiggins/homework/hw1/Movie.h
+RentalCustomer.h
+/Users/jjbiggins/Developer/C++/cie/jjbiggins/homework/hw1/RentalCustomer.h
+helperfunctions.h
+/Users/jjbiggins/Developer/C++/cie/jjbiggins/homework/hw1/helperfunctions.h
+string
+-
+iostream
+-
+vector
+-
+
+/Users/jjbiggins/Developer/C++/cie/jjbiggins/homework/hw1/helperfunctions.h
+vector
+-
+
